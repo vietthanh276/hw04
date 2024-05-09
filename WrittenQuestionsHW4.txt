@@ -1,0 +1,425 @@
+6.1 (2.5 pts.) Run HWGraphCompare with input8.txt, "Kevin Bacon" and
+"Movie 0" as command-line arguments.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49197:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.HWGraphCompare resources/hw04/input8.txt "Kevin Bacon" "Movie 0"
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Apr 30 18:10:27 PDT 2024 (1714525827916)
+	Running symbol graph experiments on file: resources/hw04/input8.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 23 vertices & 27 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		              1
+2              		              4
+3              		              2
+4              		              1
+5              		              3
+6              		              3
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 15 vertices & 27 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		              1
+2              		              4
+3              		              2
+4              		              1
+5              		              3
+6              		              3
+Histogram printed. Time elapsed: 0.00000 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.00000 seconds
+Graph with 8 vertices & 10 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Movie 0
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		              3
+2              		              1
+3              		              1
+4              		              1
+5              		              1
+Histogram printed. Time elapsed: 0.00000 seconds
+
+
+Process finished with exit code 0
+
+
+6.2 (2.5 pts.) Run HWGraphCompare with movies2013.txt, "Robert Downey Jr." and
+"Percy Jackson: Sea of Monsters (2013)" as command-line arguments.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49203:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.HWGraphCompare resources/hw04/movies2013.txt "Robert Downey Jr." "Percy Jackson: Sea of Monsters (2013)"
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Apr 30 18:11:50 PDT 2024 (1714525910684)
+	Running symbol graph experiments on file: resources/hw04/movies2013.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.20313 seconds
+Graph with 21078 vertices & 24170 edges traversed using BFS.
+Time elapsed: 0.01563 seconds
+------------------------------------
+
+Frequency Chart for: Robert Downey Jr.
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            231
+2              		           5465
+3              		          11957
+4              		           1999
+5              		             89
+2147483647     		            819
+Histogram printed. Time elapsed: 0.01563 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 0.39063 seconds
+Graph with 20561 vertices & 917404 edges traversed using BFS.
+Time elapsed: 0.03125 seconds
+------------------------------------
+
+Frequency Chart for: Robert Downey Jr.
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            231
+2              		           5465
+3              		          11957
+4              		           1999
+5              		             89
+2147483647     		            819
+Histogram printed. Time elapsed: 0.01563 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.03125 seconds
+Graph with 517 vertices & 3452 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Percy Jackson: Sea of Monsters (2013)
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		             27
+2              		            264
+3              		            162
+4              		             14
+5              		              1
+2147483647     		             48
+Histogram printed. Time elapsed: 0.00000 seconds
+
+
+Process finished with exit code 0
+
+
+6.3 (2.5 pts.) Run HWGraphCompare with movies2010p.txt, "Jack Black" and
+"Big Hero 6 (2014)" as command-line arguments.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49210:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.HWGraphCompare resources/hw04/movies2010p.txt "Jack Black" "Big Hero 6 (2014)"
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Apr 30 18:12:39 PDT 2024 (1714525959271)
+	Running symbol graph experiments on file: resources/hw04/movies2010p.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 0.75000 seconds
+Graph with 82199 vertices & 117809 edges traversed using BFS.
+Time elapsed: 0.04688 seconds
+------------------------------------
+
+Frequency Chart for: Jack Black
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            560
+2              		          27701
+3              		          47186
+4              		           2953
+5              		            245
+6              		             43
+7              		              9
+2147483647     		            954
+Histogram printed. Time elapsed: 0.03125 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 2.54688 seconds
+Graph with 79652 vertices & 4304307 edges traversed using BFS.
+Time elapsed: 0.21875 seconds
+------------------------------------
+
+Frequency Chart for: Jack Black
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            560
+2              		          27701
+3              		          47186
+4              		           2953
+5              		            245
+6              		             43
+7              		              9
+2147483647     		            954
+Histogram printed. Time elapsed: 0.01563 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.09375 seconds
+Graph with 2547 vertices & 73687 edges traversed using BFS.
+Time elapsed: 0.00000 seconds
+------------------------------------
+
+Frequency Chart for: Big Hero 6 (2014)
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		             66
+2              		           1667
+3              		            695
+4              		             29
+5              		              4
+6              		              1
+7              		              1
+2147483647     		             83
+Histogram printed. Time elapsed: 0.00000 seconds
+
+
+Process finished with exit code 0
+
+
+6.4 (2.5 pts.) Run HWGraphCompare with movies2005p.txt, "Leonardo DiCaprio" and
+"Harry Potter and the Order of the Phoenix (2007)" as command-line arguments.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49216:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.HWGraphCompare resources/hw04/movies2005p.txt "Leonardo DiCaprio" "Harry Potter and the Order of the Phoenix (2007)"
+Welcome to CS 2223 - Symbol Graphs Compare!
+	TODAY: Tue Apr 30 18:13:23 PDT 2024 (1714526003830)
+	Running symbol graph experiments on file: resources/hw04/movies2005p.txt.
+------------------------------------
+SYMBOL GRAPH IMPLEMENTATION: ActorToMovie
+
+
+Graph created. Time elapsed: 1.43750 seconds
+Graph with 154081 vertices & 251730 edges traversed using BFS.
+Time elapsed: 0.07813 seconds
+------------------------------------
+
+Frequency Chart for: Leonardo DiCaprio
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		           1244
+2              		          71926
+3              		          72170
+4              		           2197
+5              		             66
+2147483647     		            887
+Histogram printed. Time elapsed: 0.04688 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: ActorToActor
+
+
+Graph created. Time elapsed: 5.42188 seconds
+Graph with 148491 vertices & 8657731 edges traversed using BFS.
+Time elapsed: 0.45313 seconds
+------------------------------------
+
+Frequency Chart for: Leonardo DiCaprio
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		           1244
+2              		          71926
+3              		          72170
+4              		           2197
+5              		             66
+2147483647     		            887
+Histogram printed. Time elapsed: 0.01563 seconds
+
+SYMBOL GRAPH IMPLEMENTATION: MovieToMovie
+
+
+Graph created. Time elapsed: 0.35938 seconds
+Graph with 5590 vertices & 302415 edges traversed using BFS.
+Time elapsed: 0.03125 seconds
+------------------------------------
+
+Frequency Chart for: Harry Potter and the Order of the Phoenix (2007)
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            257
+2              		           4208
+3              		           1010
+4              		             20
+2147483647     		             94
+Histogram printed. Time elapsed: 0.00000 seconds
+
+
+Process finished with exit code 0
+
+
+
+7.1 (5 pts.) Run RunGame with movies_2012.txt as the command-line argument. When prompted
+to enter the source actor, pick: Kevin Bacon and for destination actors, use: Dwayne Johnson,
+Anna Kendrick, and Aml Ameen.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49231:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.RunGame resources/hw04/movies2012.txt
+Welcome to CS 2223 - Oracle of Bacon!
+	TODAY: Tue Apr 30 18:14:27 PDT 2024 (1714526067632)
+	Input File: resources/hw04/movies2012.txt
+------------------------------------
+Enter the source actor: Kevin Bacon
+
+Graph with 22226 vertices & 25191 edges traversed using BFS.
+Time elapsed: 0.01563 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Bacon
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		             49
+2              		           2565
+3              		          11653
+4              		           5287
+5              		           1093
+6              		            115
+2147483647     		            945
+
+Hollywood number: 3.24813
+
+Enter the destination actor or type quit to finish: Dwayne Johnson
+
+Kevin Bacon and Dwayne Johnson have a distance of 3.
+
+1. Dwayne Johnson was in "Journey 2: The Mysterious Island (2012)" with Michael Caine.
+2. Michael Caine was in "The Dark Knight Rises (2012)" with Brent Briscoe.
+3. Brent Briscoe was in "Jayne Mansfield's Car (2012)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: Anna Kendrick
+
+Kevin Bacon and Anna Kendrick have a distance of 2.
+
+1. Anna Kendrick was in "What to Expect When You're Expecting (2012)" with Steve Coulter.
+2. Steve Coulter was in "Jayne Mansfield's Car (2012)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: Aml Ameen
+
+Kevin Bacon and Aml Ameen have a distance of 3.
+
+1. Aml Ameen was in "Red Tails (2012)" with David Gyasi.
+2. David Gyasi was in "The Dark Knight Rises (2012)" with Brent Briscoe.
+3. Brent Briscoe was in "Jayne Mansfield's Car (2012)" with Kevin Bacon.
+
+Enter the destination actor or type quit to finish: quit
+
+Continue playing (y/n)?: n
+
+------------------------------------
+
+Process finished with exit code 0
+
+
+7.2 (5 pts.) Run RunGame with movies_all.txt as the command-line argument. Pick your
+favorite actor/actress as the source and enter at least 3 different destination actors/actresses.
+
+C:\Users\Legion\.jdks\corretto-11.0.22\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\lib\idea_rt.jar=49237:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\out\production\cs2223-2024-spring-d-term;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\junit-4.12.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\algs4.jar;C:\Users\Legion\IdeaProjects\cs2223-2024-spring-d-term\lib\hamcrest-core-1.3.jar wpialgs.hw04.RunGame resources/hw04/movies_all.txt
+Welcome to CS 2223 - Oracle of Bacon!
+	TODAY: Tue Apr 30 18:15:19 PDT 2024 (1714526119374)
+	Input File: resources/hw04/movies_all.txt
+------------------------------------
+Enter the source actor: Kevin Machate
+
+Graph with 2491080 vertices & 6144187 edges traversed using BFS.
+Time elapsed: 2.01563 seconds
+------------------------------------
+
+Frequency Chart for: Kevin Machate
+Bacon Number   		Frequency
+---------------		---------------
+0              		              1
+1              		            413
+2              		          65233
+3              		        1033905
+4              		         688496
+5              		          52956
+6              		           3455
+7              		            395
+8              		             18
+2147483647     		          80699
+
+Hollywood number: 3.40132
+
+Enter the destination actor or type quit to finish: Ana Stojanovska
+
+Kevin Machate and Ana Stojanovska have a distance of 3.
+
+1. Ana Stojanovska was in "The Cinderella Effect (2012)" with Tina Martin.
+2. Tina Martin was in "He's Just Not That Into You (2009)" with Kris Kristofferson.
+3. Kris Kristofferson was in "Angels Sing (2013)" with Kevin Machate.
+
+Enter the destination actor or type quit to finish: Alec VanOwen
+
+Kevin Machate and Alec VanOwen have a distance of 3.
+
+1. Alec VanOwen was in "A Long Way Off (2014)" with John Diehl.
+2. John Diehl was in "Drifter: Henry Lee Lucas (2009)" with Beth Shea.
+3. Beth Shea was in "#Rip (2013)" with Kevin Machate.
+
+Enter the destination actor or type quit to finish: Rafa Casette
+
+Kevin Machate and Rafa Casette have a distance of 3.
+
+1. Rafa Casette was in "Amor sacro (2011)" with Aroa Gimeno.
+2. Aroa Gimeno was in "Cult Vol. 1 (2011)" with Shannon Lark.
+3. Shannon Lark was in "Goliad Uprising (2012)" with Kevin Machate.
+
+Enter the destination actor or type quit to finish: Secun de la Rosa
+
+Kevin Machate and Secun de la Rosa have a distance of 3.
+
+1. Secun de la Rosa was in "El asombroso mundo de Borjamari y Pocholo (2004)" with Santiago Segura.
+2. Santiago Segura was in "Blade II (2002)" with Jamie Wilson.
+3. Jamie Wilson was in "Angels Sing (2013)" with Kevin Machate.
+
+Enter the destination actor or type quit to finish: quit
+
+Continue playing (y/n)?: n
+
+------------------------------------
+
+Process finished with exit code 0
+
+
